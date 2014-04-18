@@ -35,5 +35,5 @@ inspections.each do |i|
     details[:lat] = i["lat"].to_f
     details[:lng] = i["lng"].to_f
     
-    ScraperWiki.save(["id"], details)
+    ScraperWiki.save([:id], details)
 end
